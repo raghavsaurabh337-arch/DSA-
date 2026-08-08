@@ -5,13 +5,17 @@ int main(){
     cout<<"Enter the length of patterns:";
     cin>>n; 
      
-       for (int i=n;i>=1;i--)
+       for (int i=1;i<=n;i++)
      {
 
-          for(int j=1;j<=i;j++)
+          for(int j=i;j<=n;j++)
           {
 
-               cout<<"*"<<" ";     
+               cout<<" ";     
+          }
+          for(int p=i;p<=n;p++)
+          {
+               cout<<"*"<<" ";
           }
           cout<<endl;
      }

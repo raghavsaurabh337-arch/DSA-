@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the length of patterns:";
+    cout<<"Enter the length patterns:";
     cin>>n;
        for (int i=0;i<n;i++)
      {
@@ -10,7 +10,7 @@ int main(){
           for(int j=i+1;j>0;j--)
           {
 
-               cout<<"i"<<" ";     
+               cout<<i<<" ";     
           }
           cout<<endl;
      }
