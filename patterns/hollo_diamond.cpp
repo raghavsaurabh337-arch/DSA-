@@ -30,7 +30,7 @@ int main(){
           }
           cout<<"*";
           //space
-          if(1 !=n-1){
+          if(1 !=n-2){
                for(int j=1;j<=2*(n-i)-1;j++){
                     cout<<" ";
           }
